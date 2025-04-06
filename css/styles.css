@@ -46,11 +46,13 @@ body {
     color: #434455;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover {
     color: #404bbf;
 }
 
+.contacts-link:focus {
+    color: #404bbf;
+}
 /* Hero-section */
 .hero-section {
     background: #2E2F42;
@@ -75,7 +77,10 @@ body {
     cursor: pointer;
 }
 
-.button-order:hover,
+.button-order:hover {
+    background-color: #404BBF;
+}
+
 .button-order:active {
     background-color: #404BBF;
 }
@@ -163,7 +168,7 @@ body {
 }
 
 .footer-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif,
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
